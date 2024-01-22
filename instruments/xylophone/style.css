@@ -1,0 +1,168 @@
+html {
+    height: 100%;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.xylophone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    gap: 10px;
+}
+
+.one {
+    background-color: red;
+    width: 40px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.two {
+    background-color: orange;
+    width: 40px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.three {
+    background-color: yellow;
+    width: 40px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.four {
+    background-color: lime;
+    width: 40px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.five {
+    background-color: teal;
+    width: 40px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.six {
+    background-color: skyblue;
+    width: 40px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.seven {
+    background-color: purple;
+    width: 40px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.eight {
+    background-color: red;
+    width: 40px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+.nine {
+    background-color: orange;
+    width: 40px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.ten {
+    background-color: yellow;
+    width: 40px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+/* Check Box */
+.keys-checkbox input {
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+    background: #4B4B4B
+}
+  
+.keys-checkbox input::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #8c8c8c;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+  
+.keys-checkbox input:checked::before {
+    left: 35px;
+    background: #fff;
+}
+  
+/* Wrapper */
+.wrapper {
+    padding: 35px 40px;
+    border-radius: 20px;
+    /* background-image: url("images/wood.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    background-color: #fff;
+}
+  
+.wrapper header {
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+header h2 {
+    font-size: 1.6rem;
+}
+
+header .column {
+    display: flex;
+    align-items: center;
+}
+  
+header span {
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1.19rem;
+}
+  
+header input {
+    outline: none;
+    border-radius: 30px;
+}
+
+.active {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}

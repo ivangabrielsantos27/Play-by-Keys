@@ -1,0 +1,144 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.piano {
+  display: flex;
+  position: relative;
+  margin-left: 4px;
+}
+
+.white-key {
+  width: 80px;
+  height: 300px;
+  background-color: #FFF;
+  border: 4px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.white-key.active {
+  background-color: #C0C0C0;
+}
+
+.black-key {
+  position: absolute;
+  width: 50px;
+  height: 180px;
+  background-image: linear-gradient(#000000, #303030);
+  border: 3px solid black;
+  border-radius: 0 0 2px 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.black-key.active {
+  background-image: linear-gradient(#000000, #101010);
+}
+
+.Db4-key {
+  left: 50px;
+}
+
+.Eb4-key {
+  left: 125px;
+}
+
+.Gb4-key {
+  left: 275px;
+}
+
+.Ab4-key {
+  left: 355px;
+}
+
+.Bb4-key {
+  left: 430px;
+}
+
+.Db5-key {
+  left: 580px;
+}
+
+.Eb5-key {
+  left: 655px;
+}
+
+.keys-checkbox input {
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+  background: #4B4B4B
+}
+
+.keys-checkbox input::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #8c8c8c;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+.keys-checkbox input:checked::before {
+  left: 35px;
+  background: #fff;
+}
+
+.wrapper {
+  padding: 35px 40px;
+  border-radius: 20px;
+  background: #141414;
+}
+
+.wrapper header {
+  display: flex;
+  color: #B2B2B2;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h2 {
+  font-size: 1.6rem;
+}
+header .column {
+  display: flex;
+  align-items: center;
+}
+
+header span {
+  font-weight: 500;
+  margin-right: 15px;
+  font-size: 1.19rem;
+}
+
+header input {
+  outline: none;
+  border-radius: 30px;
+}
+
+#whiten {
+  color: #FFF;
+}

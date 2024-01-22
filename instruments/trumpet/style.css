@@ -1,0 +1,164 @@
+html {
+    height: 100%;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.trumpet-image {
+    height: 240px;
+}
+
+.one {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.two {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.three {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.four {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.five {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.six {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.seven {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.eight {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.nine {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.ten {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+/* Check Box */
+.keys-checkbox input {
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+    background: #4B4B4B
+}
+  
+.keys-checkbox input::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #8c8c8c;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+  
+.keys-checkbox input:checked::before {
+    left: 35px;
+    background: #fff;
+}
+  
+/* Wrapper */
+.wrapper {
+    padding: 35px 40px;
+    border-radius: 20px;
+    /* background-image: url("images/wood.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    background-color: #fff;
+}
+  
+.wrapper header {
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+header h2 {
+    font-size: 1.6rem;
+}
+
+header .column {
+    display: flex;
+    align-items: center;
+}
+  
+header span {
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1.19rem;
+}
+  
+header input {
+    outline: none;
+    border-radius: 30px;
+}
+
+.active {
+    box-shadow: 0 3px 4px 0 black;
+    opacity: 0.5;
+}

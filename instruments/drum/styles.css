@@ -1,0 +1,173 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(#403075, #882D61); */
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.set1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.set2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+
+/* Crash Cymbal */
+.W {
+  background-image: url("images/crash.png");
+  background-size: contain;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+/* High Tom */
+.A {
+  background-image: url("images/hightom.png");
+  background-size: contain;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+/* Low Tom */
+.S {
+  background-image: url("images/hightom.png");
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* Ride Cymbal */
+.D {
+  background-image: url("images/crash.png");
+  background-size: contain;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+/* NEXT LINE */
+
+/* Hit-Hat */
+.I {
+  background-image: url("images/crash.png");
+  background-size: contain;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+/* Snare Drum */
+.J {
+  background-image: url("images/snare.png");
+  background-size: contain;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* Bass Drum */
+.K {
+  background-image: url("images/bass.png");
+  background-size: contain;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+/* Floor Tom */
+.L {
+  background-image: url("images/floor.png");
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.active {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+/* Check Box */
+.keys-checkbox input {
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+  background: #4B4B4B
+}
+
+.keys-checkbox input::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #8c8c8c;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+.keys-checkbox input:checked::before {
+  left: 35px;
+  background: #fff;
+}
+
+/* Wrapper */
+.wrapper {
+  padding: 35px 40px;
+  border-radius: 20px;
+  background-image: url("images/drum.jpg");
+}
+
+.wrapper header {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h2 {
+  font-size: 1.6rem;
+}
+header .column {
+  display: flex;
+  align-items: center;
+}
+
+header span {
+  font-weight: 500;
+  margin-right: 15px;
+  font-size: 1.19rem;
+}
+
+header input {
+  outline: none;
+  border-radius: 30px;
+}
